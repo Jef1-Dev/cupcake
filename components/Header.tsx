@@ -4,6 +4,7 @@ import { ShoppingBagIcon } from '@heroicons/react/outline'
 import { Popover, Transition } from '@headlessui/react'
 import CartContext from "./context/CartContext";
 import {getPriceTotal, getProductDescription, getProductImage, getProductName} from "../utils/computed";
+import Link from "next/link";
 
 const Header: FunctionComponent = () => {
     const {items, remove} = useContext(CartContext);
@@ -39,9 +40,9 @@ const Header: FunctionComponent = () => {
                     <div className="h-16 flex items-center justify-between">
                         {/* Logo */}
                         <div className="flex-1 flex">
-                            <a href="#" className="text-2xl">
-                                CakeShop - Simples ecommerce usando Nextjs e Stripe
-                            </a>
+                            <Link href="/">
+                                <a className="text-2xl">CakeShop</a>
+                            </Link>{" "}
                         </div>
 
                         <div className="flex-1 flex items-center justify-end">
@@ -77,6 +78,8 @@ const Header: FunctionComponent = () => {
                                                                 alt={getProductDescription(price.product)}
                                                                 className="w-full h-full object-center object-cover"
                                                             />
+
+
                                                         </div>
 
                                                         <div className="ml-4 flex-1 flex flex-col">
