@@ -10,7 +10,7 @@
 
 
 
-
+se quiser saber como funcionado o manual desse projeto pode conferir no PDF de Conclusão lá mostra exatamente como usar esse projeto, como acessar o site e usar as funções do site mas não mostra como adicionar uma api ao projeto então pode usar a minha!
 
 
 
@@ -48,4 +48,9 @@ lembre-se de ter o [**node.js**](https://nodejs.org/en) instalado na sua maquina
 
 
 ---
+
+
+
+
+
 
