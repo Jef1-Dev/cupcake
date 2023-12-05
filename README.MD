@@ -2,6 +2,17 @@
 
 
 # CakeShop
+### Link do Projeto em Produção
+
+- [Site](https://cupcake-shop-psi.vercel.app)
+- [Github](https://github.com/Jef1-Dev/cupcake)
+- [Apresentação do projeto](https://youtu.be/cwgiwhn6xSk)
+
+
+
+
+
+
 
 ---
 ## Desenvolvido Utilizando:
@@ -37,9 +48,4 @@ lembre-se de ter o [**node.js**](https://nodejs.org/en) instalado na sua maquina
 
 
 ---
-
-### Link do Projeto em Produção
-
-[https://cupcake-shop-psi.vercel.app](https://cupcake-shop-psi.vercel.app)
-
 
